@@ -1,0 +1,44 @@
+#left_content
+  %h2 Who are we?
+  
+  %p
+    We are a group of developers in Winnipeg, Manitoba with a common interest in all things <a href="http://www.ruby-lang.org/en/">Ruby</a>, <a href="http://rubyonrails.org/">Rails</a> and <a href="http://ruby-toolbox.com/">related technologies</a> with skill levels ranging from beginner to expert. All you need to get involved is genuine interest.
+
+  %h2 What is Ruby?
+  
+  %p
+    <a href="http://www.ruby-lang.org/en/">Ruby</a> is "a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write". We've started a <a href="/resources">Resources</a> page to help you get started.
+
+
+#right_content
+  #blue_box
+    %h2 get_involved.rb
+  
+    %p
+      Want to give a talk about Ruby or related technologies? Hate the way this website looks - want to fix it? Have feedback or suggestions? Interested in sponsoring us? We want to hear from you:
+      %br
+      %span.highlight "bmF0aGFuQHdpbm5pcGVncmIub3Jn".unpack("m")[0]
+    %p
+      %strong
+        Subscribe to our Newsletter:
+      - if @newsletter_saved
+        %span.thankyou
+          Thanks for subscribing!
+      - else
+        - if @newsletter_error
+          %p
+            %strong
+              Error:
+            Please enter a valid email address.
+        %form{:action => '/', :method => :post}
+          %input{:type => :text, :name => :email, :class => :text, :value => params[:email]}
+          %input{:type => :submit, :value => 'Sign Up!'}
+  %ul#home_footer
+    %li.heroku
+      %a{:href => 'http://heroku.com/'} Hosted with Heroku
+    %li.twitter
+      %a{:href => 'http://www.twitter.com/winnipegrb'} Follow us on Twitter
+    %li.github
+      %a{:href => 'http://www.github.com/winnipegrb'} Follow us on Github
+    %li.oreilly
+      %a{:href => 'http://oreilly.com/'} O'Reilly
