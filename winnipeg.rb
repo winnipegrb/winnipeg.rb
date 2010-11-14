@@ -32,11 +32,12 @@ get '/events' do
   haml :events
 end
 
+get '/events/:year/:month' do 
+  @page_title = "Past Event #{params[:year]} #{params[:month]}"
+  haml :events
+end
+
 get '/resources' do 
   @page_title = 'Resources'
   haml :resources
-end
-
-get '/googlehostedservice.html' do
-  "googlefffffffff1b6b43c"
 end
