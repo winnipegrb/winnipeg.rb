@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'dm-core'
 require 'dm-validations'
+require 'active_support'
 require File.expand_path(File.join(File.dirname(__FILE__), '/models/newsletter.rb'))
 
 configure :production do
