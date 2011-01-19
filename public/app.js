@@ -6,5 +6,6 @@ $(document).ready(function(){
       $('dl#past_events_info dd.on').attr('class', 'off');
       $('dl#past_events_info dd#'+$(this).attr('id')+'_info').attr('class', 'on');
     }
+    return false;
   });
 });
