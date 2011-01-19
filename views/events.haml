@@ -44,5 +44,5 @@
   
   %dl#past_events_info
     - @events.each_with_index do |event, index|
-      %dd{:id => "#{event}_info", :class => index.zero? ? 'on' : 'off'}= haml :"events/_#{event}"
+      %dd{:id => "#{event}_info", :class => index.zero? ? 'on' : 'off'}= haml :"events/_#{event}", :layout => false
 
