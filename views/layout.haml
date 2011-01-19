@@ -5,6 +5,9 @@
     %link{:rel => 'shortcut icon', :href => '/favicon.ico', :type => 'image/ico'}
     :plain
       <link href="main.css" media="all" rel="stylesheet" type="text/css" />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+      <script src="/app.js"></script>
+      
     - if ENV['RACK_ENV'] == 'production'
       :plain
         <script type="text/javascript">

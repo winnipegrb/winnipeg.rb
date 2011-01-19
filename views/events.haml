@@ -1,4 +1,3 @@
-- # self.do something about this page, is getting messy ;) - Nathan 5th/Oct/2010
 #left_content
   %h2
     Monthly Event.
@@ -24,79 +23,14 @@
 
 
   %h2
-    Past Events
-
-  %h3
-    November Event: <a href="http://www.scala-lang.org/">A look at the Scala Language</a> by <a href="http://www.twitter.com/craiger">Craig Tataryn</a>
+    Past UG Events
   
-  %p
-    Craig Tataryn is owner of <a href="http://www.grindsoftware.com/">Grind Software Inc.</a> and editor of the <a href="http://basementcoders.com/">Basement Coders Podcast</a>.  He'll take you through the fundamentals of the Scala language.  Questions posed and answered will range from "Why bother with Scala?", "What language features does it provide", "How does it integrate with existing enterprise (read: Java) systems"?
+  %ul#past_events
+    %li
+      - @events.each_with_index do |event, index|
+        %a{:href => '#', :class => index.zero? ? 'on' : 'off', :id => event}= event.humanize
   
-  
-  %h3
-    November Event: <a href="https://github.com/jnicklas/capybara">Capybara</a> by <a href="https://github.com/amirci">Amir Barylko</a>
-  %p
-    Capybara is a gem that works as a complement of cucumber and aims to simplify writing acceptance tests for any web application. Out of the box provides a DSL that makes writing steps for common functionality like following links, clicking buttons, etc.
-    It provides different drivers that can be configured and even chose per feature or scenario basis to indicate how we want to run that case. It has built-in support <a href="https://github.com/brynary/rack-test">rack-test</a>, <a href="https://github.com/langalex/culerity">Culerity</a>, <a href="https://github.com/jarib/celerity">Celerity</a> and <a href="http://seleniumhq.org/">Selenium</a>. Join me to see how easy is to setup capybara and how we can start using it in minutes.
+  %dl#past_events_info
+    - @events.each_with_index do |event, index|
+      %dd{:id => "#{event}_info", :class => index.zero? ? 'on' : 'off'}= haml :"events/_#{event}"
 
-  %p
-    November Event: <strong><a href="http://documentcloud.github.com/jammit/">Jammit</a> - Industrial strength packaging library for Rails by <a href="http://twitter.com/__hudson__">Hudson Gevaert</a></strong> - a quick presentation about combining css & js assets, why you should bother and Hudson's experience using Jammit for his production Rails applications.
-
-
-  %h3
-    October Event: <a href="http://en.wikipedia.org/wiki/WebSockets">Websockets</a>, <a href="http://nodejs.org/">Node.js</a>, and <a href="http://socket.io/">Socket.io</a> by <a href="http://github.com/ssoroka">Steven Soroka</a>
-  
-  %p
-    Still polling for updates from javascript? The future of the web is asynchronous socket connections with instant push updates. Come learn about Node.js and other technologies making this possible, and find out how to start using HTML5 WebSockets in your web apps right away, across all browsers.
-  
-  %h3
-    October Event: Metaprogramming with Ruby by <a href="http://github.com/burke">Burke Libbey</a>
-  
-  %p
-    Ever wonder just how "magic" Rails declarations such as "has_many" and "belongs_to" work? Ever wanted to write code that worked the same way? After this talk you will have a much better idea of how these techniques work! Burke is going to talk about the Ruby object model in-depth, including classes, modules, inheritance, singleton classes, and anonymous classes. Then he will cover creating dynamic methods with method_missing and respond_to?, inheritance hooks and some other goodies.
-
-
-
-
-  %h3
-    September Event: Understanding Git by <a href="http://github.com/thetamind">Matthew Boehlig</a>
-  
-  %p
-    Does <a href="http://git-scm.com/">git</a> control you? Using the basic set of commands you learned from a tutorial without really understanding what they are doing? Using git effectively requires the understanding of how to navigate the commit tree and manipulate branch pointers. Don't worry, it's not that scary. Matthew will shine a light on git's <a href="http://en.wikipedia.org/wiki/Directed_acyclic_graph">DAG</a> and show you how to practically use git in every day situations. No longer guess at which command to use, but really understand what's going on under the hood. 
-  
-  %h3
-    September Event: Ruby from the Ground Up by <a href="http://github.com/nathanbertram">Nathan Bertram</a>
-
-  %p
-    Wondering what this <a href="http://www.ruby-lang.org/en/">Ruby programming language</a> is all about? How can Ruby == programmer happiness? Nathan will focus this talk on the basics ending with more advanced features of the language. He will show some comparisons with other common languages, show you why many programmers love Ruby and where the popular framework <a href="http://rubyonrails.org/">Ruby on Rails</a> fits in. You will learn more about the online Ruby community, resources and where to find current news about Ruby and ROR. If you are starting out with Ruby or never considered the Ruby programming language before this talk is for you.
-
-
-  %h3
-    August Event: Make Ruby Yours by <a href="http://github.com/skipants">Andrew Szczepanski</a>
-  %p
-    This presentation includes basic techniques for using Ruby effectively. It will show the usage and niceties of both the Ruby language and resources associated with it. Topics include effective learning, debugging, and refactoring of the Ruby code as well as cool one-liners made possible by built-in methods.
-
-  %h3
-    August Event: Git-internals by <a href="http://burkelibbey.org/">Burke Libbey</a>
-  %p
-    If you use <a href="http://git-scm.com/">git</a> on a regular basis, you won't want to miss this one. Burke will be talking about git from the ground up - from what makes up a commit right down to the per-byte level. He will talk about how new commits are constructed from previous ones; what actually happens in merging and rebasing; how branches and tags are implemented; how syncing with remotes works; and what most of the contents of the .git directory is made of.
-  
-  %h3
-    August Event: 5 minute or less presentations:
-  
-  %p
-    <strong>Piet interpreter</strong> by <strong>Tim Herd</strong> - a brief talk about Tim's experience with Pietr a Piet interpreter, written in Ruby. <a href="http://www.dangermouse.net/esoteric/piet.html">Piet</a> is an example of an esoteric programming language, a language intentionally designed to be obscure and impractical.
-  %p
-    <strong>0 to live in 5 minutes with Heroku</strong> by <a href="http://github.com/stefanpenner">Stefan Penner</a>- a quick demo about how easy it is setup a basic Rack based application on Heroku for free.
-
-
-  %h3
-    July Event: ActiveMerchant 201 by <a href="http://burkelibbey.org/">Burke Libbey</a>
-  %p
-    Payment processing is a crucial part of most web applications, but developers tend to be more afraid of it than necessary. Burke Libbey is going to show you how easy it can be to set up <a href="http://www.activemerchant.org/">ActiveMerchant</a> in Rails for credit card processing via one of ActiveMerchant's many supported gateways. Then, we'll cover how to interface with an unsupported payment gateway by writing a custom gateway driver. This talk will be 90% code. Come prepared, whatever that means to you.
-  
-  %h3
-    July Event: Clean up that application.js! A Rails 3 UJS Primer by <a href="http://github.com/stefanpenner">Stefan Penner</a>
-  
-  %p
-    Stefan is all to familiar with the potential unmaintainable spaghetti code disaster that many Rails developers call the public/ directory. This talk will briefly cover the evolution of JavaScript in the Rails environment, with a focus on the new <a href="http://guides.rails.info/3_0_release_notes.html">Rails 3</a> Un-obtrusive JavaScript drivers. Highlights will include, a Rails 3 UJS Primer, extending UJS, and using UJS without Rails 3 (O_o).

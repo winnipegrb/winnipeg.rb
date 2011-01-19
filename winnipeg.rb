@@ -29,11 +29,7 @@ end
 
 get '/events' do 
   @page_title = 'Upcoming Events'
-  haml :events
-end
-
-get '/events/:year/:month' do 
-  @page_title = "Past Event #{params[:year]} #{params[:month]}"
+  @events = %w(november_2010 october_2010 september_2010 august_2010 july_2010)
   haml :events
 end
 

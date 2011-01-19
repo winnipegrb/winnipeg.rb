@@ -2,7 +2,4 @@ h2. Winnipeg.rb User Group - Who are we?
 
 We are a group of developers in Winnipeg, Manitoba with a common interest in all things Ruby, Rails and related technologies with skill levels ranging from beginner to expert. All you need to get involved is genuine interest.
 
-http://www.winnipegrb.org/
-
-TODO:
-1. Break up the events page into individual month pages
+This is the website for our UG: http://www.winnipegrb.org/
