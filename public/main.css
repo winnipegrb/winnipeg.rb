@@ -234,6 +234,27 @@ dl#past_events_info dd.off {
   display: none;
 }
 
+a.slides_link {
+  padding: 0; margin: 0;
+  display: block;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: #666;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 5px 5px 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+a.slides_link:hover {
+  background: #888;
+}
+
+
 /*  
     awesome buttons are based on a blog post by ZERB
     Read there blog post for more information:
