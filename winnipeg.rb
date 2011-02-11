@@ -2,7 +2,7 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 require 'sinatra'
-require 'active_support'
+require 'active_support/core_ext/string'
 
 configure :production do
   not_found do
