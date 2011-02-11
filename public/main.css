@@ -136,11 +136,14 @@ div#right_content ul li {
 
 div#right_content div#blue_box {
   margin: 0; padding: 0;
-  border: 2px solid #3868cd;
+  border: 3px solid #3868cd;
   background: #e4eef6;
   padding: 5px;
   float: right;
   width: 445px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 div#right_content div#blue_box span.thankyou {

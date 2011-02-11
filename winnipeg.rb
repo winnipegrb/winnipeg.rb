@@ -1,13 +1,9 @@
 require 'rubygems'
 require 'sinatra'
-require 'dm-core'
-require 'dm-validations'
+require 'hominid'
 require 'active_support'
-require File.expand_path(File.join(File.dirname(__FILE__), '/models/newsletter.rb'))
 
 configure :production do
-  DataMapper.setup(:default, ENV['DATABASE_URL'])
-  
   not_found do
     @page_title = '404 Not Found'
     haml :not_found
@@ -23,8 +19,12 @@ get '/' do
 end
 
 post '/' do
-  n = Newsletter.new(:email => params[:email])
-  n.save ? (@newsletter_saved = true) : (@newsletter_error = true)
+  mailchimp = Hominid::API.new(ENV['MAILCHIMP_API_KEY'])
+  begin
+    @newsletter_saved = mailchimp.list_subscribe('bf885d7bf8', params[:email], [], 'html', false, true, true, false)
+  rescue Hominid::APIError
+    @newsletter_saved = false
+  end
   haml :index
 end
 
