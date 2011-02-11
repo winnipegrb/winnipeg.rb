@@ -1,6 +1,7 @@
 require 'rubygems'
+require 'bundler'
+Bundler.require
 require 'sinatra'
-require 'hominid'
 require 'active_support'
 
 configure :production do
