@@ -102,6 +102,11 @@ div#left_content a {
   color: #333;
 }
 
+div#left_content.amazon {
+  width: 300px;
+  border: 1px solid red;
+}
+
 div#left_content.amazon a, div#left_content.amazon a:hover {
   background: none;
 }
