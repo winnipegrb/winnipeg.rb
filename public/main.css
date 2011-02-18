@@ -93,7 +93,7 @@ div#header ul li {
 
 div#left_content {
   float: left;
-  width: 300px;
+  width: 250px;
 }
 
 div#left_content a {
@@ -121,7 +121,7 @@ div#right_content {
   margin: 0; padding: 0;
   padding: 5px;
   float: right;
-  width: 450px;
+  width: 500px;
 }
 
 div#right_content ul {
