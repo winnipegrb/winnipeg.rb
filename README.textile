@@ -3,3 +3,8 @@ h2. Winnipeg.rb User Group - Who are we?
 We are a group of developers in Winnipeg, Manitoba with a common interest in all things Ruby, Rails and related technologies with skill levels ranging from beginner to expert. All you need to get involved is genuine interest.
 
 This is the website for our UG: http://www.winnipegrb.org/
+
+h2. Setup Instructions
+
+1. Install the Sinatra (sinatrarb.com) -- sudo gem install sinatra
+2. ruby winnipeg.rb and access the site from http://localhost:4567/
