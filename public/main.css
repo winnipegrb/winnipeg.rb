@@ -262,6 +262,23 @@ a.slides_link:hover {
   background: #888;
 }
 
+#irc_chan {
+  margin: 0 0 0 140px;
+  clear: both;
+  display: block;
+  width: 240px;
+  height: 25px;
+  font-weight: bold;
+  border: 1px solid #3868cd;
+  font-size: 1.1em;
+  background: #e4eef6;
+  text-align: center;
+  line-height: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 
 /*  
     awesome buttons are based on a blog post by ZERB
