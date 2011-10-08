@@ -36,7 +36,7 @@ end
 
 get '/events' do 
   @page_title = 'Upcoming Events'
-  @events = %w(august_2011 june_2011 may_2011 april_2011 march_2011 february_2011 janurary_2011 november_2010 october_2010 september_2010 august_2010 july_2010)
+  @events = %w(september_2011 august_2011 june_2011 may_2011 april_2011 march_2011 february_2011 janurary_2011 november_2010 october_2010 september_2010 august_2010 july_2010)
   haml :events
 end
 
