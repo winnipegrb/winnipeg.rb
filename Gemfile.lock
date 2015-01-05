@@ -1,22 +1,10 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
-    activesupport (3.0.4)
-    haml (3.0.25)
-    hominid (3.0.2)
-    i18n (0.5.0)
-    rack (1.2.1)
-    sinatra (1.1.0)
-      rack (~> 1.1)
-      tilt (~> 1.1)
-    tilt (1.1)
+    rack (1.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
-  haml
-  hominid
-  i18n
-  sinatra
+  rack
