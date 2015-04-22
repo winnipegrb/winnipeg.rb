@@ -1,0 +1,86 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title Winnipeg Ruby User Group
+    %meta{:content => "width=1000, user-scalable=yes", :name => "viewport"}/
+    :css
+      p { font-size: 18px; line-height: 1.5em; }
+      #home h1 { margin-top: 0.8em; }
+      #home h2 { margin-bottom: 0.5em; }
+      .demo-logo a {text-decoration: none; color: inherit;}
+    %link{:href => "bootstrap/css/bootstrap.css", :rel => "stylesheet"}/
+    %link{:href => "css/flat-ui.css", :rel => "stylesheet"}/
+    %link{:href => "images/favicon.ico", :rel => "shortcut icon"}/
+    /[if lt IE 9]
+      <script src="js/html5shiv.js"></script>
+  %body#home
+    .container
+      .demo-headline{:style => "padding-bottom: 80px"}
+        %h1.demo-logo
+          %a{:href => "http://winnipegrb.org"}
+            .logo
+            WinnipegRB
+            %small Winnipeg Ruby User Group
+      / /demo-headline
+    %section{:style => "background-color: #2980b9; width: 100%;"}
+      .container
+        .row.demo-row
+          .span12
+            %p{:style => "font-size: 18px; line-height: 1.5em; margin-top: 1.5em; color: white;"} Founded in January 2010, WinnipegRB is a group of developers in Winnipeg, Manitoba with a common interest in all things Ruby, Rails, and related technologies. Everyone is welcome, from professional ruby programmers to those just beginning to program. The only requirement is passion.
+    .container
+      .row.demo-row
+        .span12{:style => "position: relative;"}
+          %a.btn.btn-primary.btn-large{:href => "http://winnipegrb.org/archive.html", :style => "position: absolute; top: 20px; right: 20px"} Event History
+          %h1 Next Event on September 25, 2013
+          %h2
+            Learning Ruby by Reading the Source
+            %span{:style => "opacity:0.7"} / Burke Libbey
+          %p
+            One of the best ways to learn a technology is to learn how it's implemented. People tend to view
+            programming languages as black boxes, but there's a lot to be gained by exploring their
+            implementations. Ruby is well-known for being a relatively complicated language with a lot of
+            features that "just work", often employing "magic". The "it's magic" level of understanding can be
+            surprisingly effective, but it will only get you so far. This talk explores a few bits of ruby's
+            source to shed light on some of these less-obvious of ruby's features.
+          %p
+            This talk assumes a general, but not necessarily deep, understanding of ruby. It does involve
+            some C code as well. You should understand what a pointer is, but past that, there will be
+            plenty of diagrams to illustrate what's going on.
+          %p
+            %strong
+              %em Precise time and location TBD; likely 5:30. Food will be provided, drinks to follow.
+    %footer
+      .container
+        .row
+          .span7
+            %h3.footer-title Join Us!
+            %p
+              WinnipegRB meets every month. If you're interested, make sure to join our
+              %a{:href => "http://meetup.com/winnipegrb"} meetup group
+              to get notifications about upcoming events.
+          / /span8
+          .span5
+            .footer-banner{:style => "min-height: 120px; padding-bottom: 5px;"}
+              %h3.footer-title Stay Connected
+              %ul
+                %li
+                  %a{:href => "http://twitter.com/winnipegrb"} Twitter
+                %li
+                  %a{:href => "http://meetup.com/winnipegrb"} Meetup
+                %li
+                  %a{:href => "irc://irc.freenode.net/#winnipegrb"} #winnipegrb on Freenode
+    / Load JS here for greater good =============================
+    %script{:src => "js/jquery-1.8.3.min.js"}
+    %script{:src => "js/jquery-ui-1.10.3.custom.min.js"}
+    %script{:src => "js/jquery.ui.touch-punch.min.js"}
+    %script{:src => "js/bootstrap.min.js"}
+    %script{:src => "js/bootstrap-select.js"}
+    %script{:src => "js/bootstrap-switch.js"}
+    %script{:src => "js/flatui-checkbox.js"}
+    %script{:src => "js/flatui-radio.js"}
+    %script{:src => "js/jquery.tagsinput.js"}
+    %script{:src => "js/jquery.placeholder.js"}
+    %script{:src => "js/jquery.stacktable.js"}
+    %script{:src => "http://vjs.zencdn.net/c/video.js"}
+    %script{:src => "js/application.js"}
