@@ -31,25 +31,18 @@
     .container
       .row.demo-row
         .span12{:style => "position: relative;"}
-          %a.btn.btn-primary.btn-large{:href => "http://winnipegrb.org/archive.html", :style => "position: absolute; top: 20px; right: 20px"} Event History
-          %h1 Next Event on September 25, 2013
-          %h2
-            Learning Ruby by Reading the Source
-            %span{:style => "opacity:0.7"} / Burke Libbey
-          %p
-            One of the best ways to learn a technology is to learn how it's implemented. People tend to view
-            programming languages as black boxes, but there's a lot to be gained by exploring their
-            implementations. Ruby is well-known for being a relatively complicated language with a lot of
-            features that "just work", often employing "magic". The "it's magic" level of understanding can be
-            surprisingly effective, but it will only get you so far. This talk explores a few bits of ruby's
-            source to shed light on some of these less-obvious of ruby's features.
-          %p
-            This talk assumes a general, but not necessarily deep, understanding of ruby. It does involve
-            some C code as well. You should understand what a pointer is, but past that, there will be
-            plenty of diagrams to illustrate what's going on.
+          %a.btn.btn-primary.btn-large{href: @result.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
+          %h1= @result.name
+          .description= @result.description
           %p
             %strong
-              %em Precise time and location TBD; likely 5:30. Food will be provided, drinks to follow.
+              %em= @result.time
+              %br
+              %em= @result.venue
+          %p
+            %a{href: "http://www.meetup.com/winnipegrb/events/past/"} Past Meetups
+
+
     %footer
       .container
         .row
