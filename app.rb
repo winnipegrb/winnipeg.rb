@@ -3,7 +3,7 @@ require 'rmeetup'
 require 'awesome_print'
 
 get '/' do
-  @result = UpcomingMeeting.new
+  @next_meeting = UpcomingMeeting.new
   haml :index
 end
 

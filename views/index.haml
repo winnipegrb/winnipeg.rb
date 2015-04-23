@@ -31,15 +31,15 @@
     .container
       .row.demo-row
         .span12{:style => "position: relative;"}
-          - if @result.present?
-            %a.btn.btn-primary.btn-large{href: @result.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
-            %h1= @result.name
-            .description= @result.description
+          - if @next_meeting.present?
+            %a.btn.btn-primary.btn-large{href: @next_meeting.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
+            %h1= @next_meeting.name
+            .description= @next_meeting.description
             %p
               %strong
-                %em= @result.time
+                %em= @next_meeting.time
                 %br
-                %em= @result.venue
+                %em= @next_meeting.venue
           - else
             %h1 Nothing planned yet
             .description
