@@ -3,4 +3,7 @@ winnipeg.rb
 
 This is the Winnipegrb.org website.
 
-Right now it's static. Let's work on improving it!
+== Running the site
+
+You need a [Meetup API key](https://secure.meetup.com/meetup_api/key/)
+It is stored in an environment variable called `MEETUP_KEY`
