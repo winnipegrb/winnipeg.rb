@@ -31,14 +31,22 @@
     .container
       .row.demo-row
         .span12{:style => "position: relative;"}
-          %a.btn.btn-primary.btn-large{href: @result.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
-          %h1= @result.name
-          .description= @result.description
-          %p
-            %strong
-              %em= @result.time
-              %br
-              %em= @result.venue
+          - if @result.present?
+            %a.btn.btn-primary.btn-large{href: @result.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
+            %h1= @result.name
+            .description= @result.description
+            %p
+              %strong
+                %em= @result.time
+                %br
+                %em= @result.venue
+          - else
+            %h1 Nothing planned yet
+            .description
+              We are still planning the next meeting.
+              Why don't you sign up
+              %a{href: "http://www.meetup.com/winnipegrb/"} on meetup.com
+              to hear about our next meeting?
           %p
             %a{href: "http://www.meetup.com/winnipegrb/events/past/"} Past Meetups
 

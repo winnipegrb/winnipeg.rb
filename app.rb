@@ -12,9 +12,14 @@ class UpcomingMeeting
   attr_reader :next_meeting
 
   delegate [:name, :description, :event_url] => :next_meeting
+
   def initialize
     RMeetup::Client.api_key = ENV['MEETUP_KEY']
     @next_meeting = RMeetup::Client.fetch(:events,{group_urlname: "winnipegrb"}).first
+  end
+
+  def present?
+    ! @next_meeting.nil?
   end
 
   def venue
@@ -30,5 +35,4 @@ class UpcomingMeeting
   def vinfo(element)
     @next_meeting.venue[element]
   end
-
 end
