@@ -23,7 +23,11 @@ class UpcomingMeeting
   end
 
   def venue
-    "%s<br>%s" % [ vinfo('name'), vinfo('address_1') ]
+    if @next_meeting.venue
+      "%s<br>%s" % [ vinfo('name'), vinfo('address_1') ]
+    else
+      "Location TBA"
+    end
   end
 
   def time
