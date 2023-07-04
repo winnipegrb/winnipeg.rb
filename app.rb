@@ -15,7 +15,9 @@ class UpcomingMeeting
 
   def initialize
     RMeetup::Client.api_key = ENV['MEETUP_KEY']
-    @next_meeting = RMeetup::Client.fetch(:events,{group_urlname: "winnipegrb"}).first
+    @next_meeting = if RMeetup::Client.api_key
+      RMeetup::Client.fetch(:events,{group_urlname: "winnipegrb"}).first
+    end
   end
 
   def present?
