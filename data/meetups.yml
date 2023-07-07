@@ -1,0 +1,12 @@
+- name: Action Pack Under The Hood
+  description: |
+    Our first meetup will feature a talk about Action Pack!
+
+    Action Pack Under The Hood
+
+    Have you ever wondered how routing in Rails actually works? This talk is all about the journey from request to response within a Rails server. Along the way, you'll learn about the internals that make it all possible, and some performance tips to make web applications faster at scale.
+
+    The talk will start at 6:30PM. Food and drinks will be provided at the venue.
+  event_url: https://www.meetup.com/winnipegrb/events/294672122/
+  venue: Launch Coworking - Exchange
+  time: September 13, 2023 @ 6:00pm

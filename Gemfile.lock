@@ -1,19 +1,24 @@
-GIT
-  remote: https://github.com/winnipegrb/rmeetup.git
-  revision: 883c16c32e1ceabeeec00d4be4792d8f40b2f99d
-  specs:
-    rMeetup (1.1.0)
-      json
-
 GEM
   remote: https://rubygems.org/
   specs:
+    activemodel (7.0.6)
+      activesupport (= 7.0.6)
+    activesupport (7.0.6)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     awesome_print (1.9.2)
+    concurrent-ruby (1.2.2)
+    frozen_record (0.27.0)
+      activemodel
     haml (6.1.1)
       temple (>= 0.8.2)
       thor
       tilt
-    json (2.6.3)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.18.1)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.9)
@@ -33,17 +38,22 @@ GEM
     temple (0.10.2)
     thor (1.2.2)
     tilt (2.2.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-22
 
 DEPENDENCIES
   awesome_print
+  frozen_record
   haml
   puma
-  rMeetup!
   shotgun
   sinatra
+
+RUBY VERSION
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.4.10
