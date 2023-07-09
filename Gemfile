@@ -1,10 +1,13 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-ruby '3.2.2'
+source "https://rubygems.org"
 
-gem 'sinatra'
-gem 'haml'
-gem 'puma'
-gem 'frozen_record'
-gem 'awesome_print'
-gem 'shotgun'
+ruby "3.2.2"
+
+gem "awesome_print"
+gem "frozen_record"
+gem "haml"
+gem "puma"
+gem "rubocop"
+gem "shotgun"
+gem "sinatra"
