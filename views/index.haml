@@ -38,12 +38,12 @@
             %p.description= @next_meeting.description
             %p
               %strong
-                %em= @next_meeting.time
+                %em= @next_meeting.formatted_time
                 %br
                 %em= @next_meeting.venue
           - else
             %h1 Nothing planned yet
-            .description
+            %p
               We are still planning the next meeting.
               Why don't you sign up
               %a{href: "http://www.meetup.com/winnipegrb/"} on meetup.com
