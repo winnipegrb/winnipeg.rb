@@ -10,3 +10,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/294672122/
   venue: Launch Coworking - Exchange
   time: September 13, 2023 @ 6:00pm
+
+- name: Enforcing style guides with Rubocop
+  description: |
+    We're back with a workshop on Rubocop!
+
+    Is your codebase opinionated? Does it have hidden rules and best practices that aren't strongly enforced? In this workshop you'll learn about the importance of a style guide, how to implement one in Ruby, and how to build your own Rubocop cops to enforce arbitrary rules.
+
+    Doors open at 6, and the workshop starts at 6:30. Food and drinks will be provided at the venue.
+  event_url: https://www.meetup.com/winnipegrb/events/296601492
+  venue: Launch Coworking - Exchange
+  time: October 18, 2023 @ 6:00pm
