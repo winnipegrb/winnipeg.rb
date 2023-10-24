@@ -18,6 +18,15 @@
     Is your codebase opinionated? Does it have hidden rules and best practices that aren't strongly enforced? In this workshop you'll learn about the importance of a style guide, how to implement one in Ruby, and how to build your own Rubocop cops to enforce arbitrary rules.
 
     Doors open at 6, and the workshop starts at 6:30. Food and drinks will be provided at the venue.
-  event_url: https://www.meetup.com/winnipegrb/events/296601492
+  event_url: https://www.meetup.com/winnipegrb/events/296601492/
   venue: Launch Coworking - Exchange
   time: 2023-10-18T18:00:00-05:00
+
+- name: "Docker 101: Improving your local and release environments"
+  description: |
+    What is Docker, and how can you leverage it to improve development and deliverability? Join us to find out!
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+  event_url: https://www.meetup.com/winnipegrb/events/296923062/
+  venue: Launch Coworking - Exchange
+  time: 2023-11-08T18:00:00-05:00
