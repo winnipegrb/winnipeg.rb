@@ -2,12 +2,9 @@
 
 source "https://rubygems.org"
 
-ruby "3.2.2"
+ruby "3.3.0"
 
-gem "awesome_print"
 gem "frozen_record"
 gem "haml"
-gem "puma"
+gem "middleman", "~> 4.2"
 gem "rubocop"
-gem "shotgun"
-gem "sinatra"

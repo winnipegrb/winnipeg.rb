@@ -1,0 +1,27 @@
+name: Publish
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * 4"
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        name: Setup Ruby
+        with:
+          ruby-version: 3.3.0
+      - name: Build
+        run: |
+          bundle install
+          bin/middleman build
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build

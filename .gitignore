@@ -1,3 +1,4 @@
 output/*
 .bundle
 *.swp
+.rubocop-https-*
