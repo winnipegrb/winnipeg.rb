@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "frozen_record"
 
 class ::Meetup < FrozenRecord::Base
@@ -14,7 +16,7 @@ class ::Meetup < FrozenRecord::Base
   end
 end
 
-FrozenRecord::Base.auto_reloading = true 
+FrozenRecord::Base.auto_reloading = true
 
 set :layout, false
 
