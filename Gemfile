@@ -4,7 +4,6 @@ source "https://rubygems.org"
 
 ruby "3.3.0"
 
-gem "awesome_print"
 gem "frozen_record"
 gem "haml"
 gem "puma"
