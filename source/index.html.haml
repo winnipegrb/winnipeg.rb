@@ -11,7 +11,7 @@
       #home h2 { margin-bottom: 0.5em; }
       .demo-logo a {text-decoration: none; color: inherit;}
       .description {white-space: pre-line;}
-    %link{:href => "bootstrap/css/bootstrap.css", :rel => "stylesheet"}/
+    %link{:href => "css/bootstrap.css", :rel => "stylesheet"}/
     %link{:href => "css/flat-ui.css", :rel => "stylesheet"}/
     %link{:href => "images/favicon.ico", :rel => "shortcut icon"}/
     /[if lt IE 9]
@@ -33,15 +33,15 @@
     .container
       .row.demo-row
         .span12{:style => "position: relative;"}
-          - if @next_meeting.present?
-            %a.btn.btn-primary.btn-large{href: @next_meeting.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
-            %h1{:style => "padding-right: 4em;"}= @next_meeting.name
-            %p.description= @next_meeting.description
+          - if next_meeting.present?
+            %a.btn.btn-primary.btn-large{href: next_meeting.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
+            %h1{:style => "padding-right: 4em;"}= next_meeting.name
+            %p.description= next_meeting.description
             %p
               %strong
-                %em= @next_meeting.formatted_time
+                %em= next_meeting.formatted_time
                 %br
-                %em= @next_meeting.venue
+                %em= next_meeting.venue
           - else
             %h1 Nothing planned yet
             %p
@@ -78,15 +78,4 @@
                   %a{:href => "https://fullstackmb.ca/slack.html"} #ruby on Full Stack MB Slack
     / Load JS here for greater good =============================
     %script{:src => "js/jquery-1.8.3.min.js"}
-    %script{:src => "js/jquery-ui-1.10.3.custom.min.js"}
-    %script{:src => "js/jquery.ui.touch-punch.min.js"}
     %script{:src => "js/bootstrap.min.js"}
-    %script{:src => "js/bootstrap-select.js"}
-    %script{:src => "js/bootstrap-switch.js"}
-    %script{:src => "js/flatui-checkbox.js"}
-    %script{:src => "js/flatui-radio.js"}
-    %script{:src => "js/jquery.tagsinput.js"}
-    %script{:src => "js/jquery.placeholder.js"}
-    %script{:src => "js/jquery.stacktable.js"}
-    %script{:src => "http://vjs.zencdn.net/c/video.js"}
-    %script{:src => "js/application.js"}
