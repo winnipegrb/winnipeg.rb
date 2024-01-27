@@ -30,3 +30,12 @@
   event_url: https://www.meetup.com/winnipegrb/events/296923062/
   venue: Launch Coworking - Exchange
   time: 2023-11-08T18:00:00-05:00
+
+- name: Exploring Language Servers with Ruby
+  description: |
+    Does your IDE give you the features you need to be productive? In this talk, you'll learn how to leverage the Language Server Protocol (LSP) to level up your code editing experience with Ruby and other languages. Lightning talks will follow the main presentation.
+
+    Doors open at 5:30, and the talk starts at 6:00. Food and drinks will be provided at the venue.
+  event_url: https://www.meetup.com/winnipegrb/events/298729431/
+  venue: Launch Coworking - Exchange
+  time: 2024-02-21T17:30:00-05:00
