@@ -6,7 +6,7 @@ class ::Meetup < FrozenRecord::Base
   self.base_path = File.join(__dir__, "db", "data")
 
   def formatted_time
-    time.strftime("%B %d, %Y @ %l%P").sub("  ", " ")
+    time.strftime("%B %d, %Y @ %l:%M%P").sub("  ", " ")
   end
 
   class << self
