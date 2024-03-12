@@ -4,24 +4,34 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0 * * 4"
-permissions:
-  contents: write
+    - cron: "0 0 * * *"
 jobs:
   publish:
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - uses: ruby/setup-ruby@v1
-        name: Setup Ruby
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3.0
-      - name: Build
+      - name: Middleman Build
         run: |
           bundle install
           bin/middleman build
-      - name: Deploy to Github Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: build
+          path: build
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      
