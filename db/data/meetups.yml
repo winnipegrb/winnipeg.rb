@@ -57,3 +57,12 @@
   event_url: https://www.meetup.com/winnipegrb/events/302027183/
   venue: Launch Coworking - Exchange
   time: 2024-07-24T18:00:00-05:00
+
+- name: How to Keep Rails App Development Fast
+  description: |
+    Is your web application slow to boot? How long does it take to run a single test? In this talk, you'll learn how to keep Rails application development fast, how to profile an application, and ways to catch speed regressions.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+  event_url: https://www.meetup.com/winnipegrb/events/303877241/
+  venue: Launch Coworking - Exchange
+  time: 2024-10-30T18:00:00-05:00
