@@ -18,8 +18,6 @@ end
 
 FrozenRecord::Base.auto_reloading = true
 
-set :layout, false
-
 helpers do
   def next_meeting
     @next_meeting ||= Meetup.current
