@@ -15,7 +15,15 @@
     %link{:href => "css/flat-ui.css", :rel => "stylesheet"}/
     %link{:href => "images/favicon.ico", :rel => "shortcut icon"}/
   %body#home
-    != yield
+    %header
+      .demo-headline{:style => "padding-bottom: 80px"}
+        %h1.demo-logo
+          != link_to "/" do
+            .logo
+            WinnipegRB
+            %small Winnipeg Ruby User Group
+    %main
+      != yield
     %footer
       .container
         .row
@@ -25,7 +33,9 @@
               %p
                 WinnipegRB meets every month. If you're interested, make sure to join our
                 %a{:href => "http://meetup.com/winnipegrb"} meetup group
-                to get notifications about upcoming events.
+                to get notifications about upcoming events. Please review our
+                != link_to "code of conduct", "code_of_conduct"
+                to learn what's expected of you.
               %p
                 Interested in speaking? We'd love to hear from you! Submit your talk
                 %a{:href => "https://forms.gle/JPH2JhVCcArSpbU36"} here.
