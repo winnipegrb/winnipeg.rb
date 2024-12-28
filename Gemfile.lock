@@ -132,6 +132,7 @@ PLATFORMS
 DEPENDENCIES
   frozen_record
   haml
+  kramdown
   middleman (~> 4.2)
   rubocop
 

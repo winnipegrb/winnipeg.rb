@@ -9,7 +9,7 @@
       - if next_meeting.present?
         %a.btn.btn-primary.btn-large{href: next_meeting.event_url, style: "position: absolute; top: 20px; right: 20px"} Register
         %h1{:style => "padding-right: 4em;"}= next_meeting.name
-        %p.description= next_meeting.description
+        != next_meeting.description_html
         %p
           %strong
             %em= next_meeting.formatted_time

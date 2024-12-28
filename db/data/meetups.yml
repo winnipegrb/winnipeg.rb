@@ -77,9 +77,13 @@
   description: |
     Let's kickoff 2025 with some game development!
 
-    Most programmers know you can build games with Unity or Unreal, but did you know you can use Ruby too? In this talk, you'll learn about DragonRuby, a cross-platform Ruby runtime. We'll focus on building a simple game from scratch using the DragonRuby game toolkit.
+    Most programmers know you can build games with Unity or Unreal, but did you know you can use Ruby too?
+    In this talk, you'll learn about [DragonRuby](https://dragonruby.org/), a cross-platform Ruby runtime.
+    We'll focus on building a simple game from scratch using the [DragonRuby game toolkit](https://dragonruby.itch.io/dragonruby-gtk).
 
     Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
-  event_url: https://www.meetup.com/winnipegrb/events/xxx/
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/) and [Launch Coworking](https://launchcoworking.ca/).
+  event_url: https://www.meetup.com/winnipegrb/events/305304260/
   venue: Launch Coworking - Exchange
   time: 2025-01-29T18:00:00-05:00
