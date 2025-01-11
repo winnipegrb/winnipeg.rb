@@ -1,12 +1,17 @@
 # frozen_string_literal: true
 
 require "frozen_record"
+require "kramdown"
 
 class ::Meetup < FrozenRecord::Base
   self.base_path = File.join(__dir__, "db", "data")
 
   def formatted_time
     time.strftime("%B %d, %Y @ %l:%M%P").sub("  ", " ")
+  end
+
+  def description_html
+    Kramdown::Document.new(description).to_html
   end
 
   class << self
@@ -17,8 +22,6 @@ class ::Meetup < FrozenRecord::Base
 end
 
 FrozenRecord::Base.auto_reloading = true
-
-set :layout, false
 
 helpers do
   def next_meeting

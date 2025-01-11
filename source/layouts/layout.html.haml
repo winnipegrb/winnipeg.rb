@@ -1,0 +1,60 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title Winnipeg Ruby User Group
+    %meta{:content => "width=1000, user-scalable=yes", :name => "viewport"}/
+    :css
+      html { background-color: #edeff1; }
+      p { font-size: 18px; line-height: 1.5em; }
+      #home h2 { margin-bottom: 0.5em; }
+      .demo-logo a { text-decoration: none; color: inherit; }
+      .description { white-space: pre-line; }
+      .sponsors img { width: 20%; padding-right: 60px; display: inline;  }
+    %link{:href => "css/bootstrap.css", :rel => "stylesheet"}/
+    %link{:href => "css/flat-ui.css", :rel => "stylesheet"}/
+    %link{:href => "images/favicon.ico", :rel => "shortcut icon"}/
+  %body#home
+    %header
+      .demo-headline{:style => "padding-bottom: 80px"}
+        %h1.demo-logo
+          != link_to "/" do
+            .logo
+            WinnipegRB
+            %small Winnipeg Ruby User Group
+    %main
+      != yield
+    %footer
+      .container
+        .row
+          .span7
+            .join
+              %h3.footer-title Join Us!
+              %p
+                WinnipegRB meets every month. If you're interested, make sure to join our
+                %a{:href => "http://meetup.com/winnipegrb"} meetup group
+                to get notifications about upcoming events. Please review our
+                != link_to "code of conduct", "code_of_conduct"
+                to learn what's expected of you.
+              %p
+                Interested in speaking? We'd love to hear from you! Submit your talk
+                %a{:href => "https://forms.gle/JPH2JhVCcArSpbU36"} here.
+            .sponsors
+              %h3.footer-title Sponsors
+              %a{ href: "https://shopify.com"}
+                %img{:src => "images/shopify-glyph-black.png" }
+              %a{ href: "https://launchcoworking.ca"}
+                %img{:src => "images/launch-glyph-black.svg" }
+          .span5
+            .footer-banner{:style => "min-height: 120px; padding-bottom: 200px;"}
+              %h3.footer-title Stay Connected
+              %ul
+                %li
+                  %a{:href => "http://twitter.com/winnipegrb"} Twitter
+                %li
+                  %a{:href => "http://meetup.com/winnipegrb"} Meetup
+                %li
+                  %a{:href => "https://fullstackmb.ca/slack.html"} #ruby on Full Stack MB Slack
+    / Load JS here for greater good
+    %script{:src => "js/jquery-1.8.3.min.js"}
+    %script{:src => "js/bootstrap.min.js"}

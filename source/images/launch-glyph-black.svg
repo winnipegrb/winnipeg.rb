@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   width="306.104"
+   height="333.763"
+   viewBox="0 0 306.104 333.76301"
+   version="1.1"
+   sodipodi:docname="VECTOR Launch-Logo-Black-Letters-only.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.57470566"
+     inkscape:cx="189.6623"
+     inkscape:cy="186.18226"
+     inkscape:window-width="1648"
+     inkscape:window-height="679"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <title
+     id="title1">launch_secondary_cw_K_RGB</title>
+  <g
+     id="g17">
+    <polygon
+       class="cls-1"
+       points="293.172,303.585 274.896,303.585 274.896,332.825 261.963,332.825 261.963,168.333 274.896,168.333 274.896,292.151 293.172,292.151 293.172,0 306.102,0 306.104,332.825 293.172,332.825 "
+       id="polygon14" />
+    <polygon
+       class="cls-1"
+       points="12.934,265.16 12.934,321.392 33.739,321.392 33.739,332.825 0,332.825 0,265.16 "
+       id="polygon15" />
+    <path
+       class="cls-1"
+       d="m 140.973,312.582 c 0,14.9 -8.809,21.181 -22.118,21.181 -13.309,0 -22.023,-6.28 -22.023,-21.181 V 265.16 h 12.933 v 47.328 c 0,6.467 2.811,9.841 9.09,9.841 6.279,0 9.185,-3.374 9.185,-9.841 V 265.16 h 12.933 z"
+       id="path15" />
+    <polygon
+       class="cls-1"
+       points="164.685,289.152 164.685,332.825 152.876,332.825 152.876,265.16 167.027,265.16 185.021,305.271 185.209,305.271 185.209,215 197.018,215 197.018,332.825 184.646,332.825 164.872,289.152 "
+       id="polygon16" />
+    <path
+       class="cls-1"
+       d="M 250.783,253.063 H 237.85 v -64.925 c 0,-7.5 -3.281,-9.559 -8.435,-9.559 -5.154,0 -8.435,2.061 -8.435,9.559 V 312.77 c 0,7.5 3.281,9.559 8.435,9.559 5.154,0 8.435,-2.062 8.435,-9.559 V 307 h 12.933 v 4.082 c 0,16.683 -8.809,22.681 -21.368,22.681 -12.559,0 -21.368,-6 -21.368,-22.681 V 189.825 c 0,-16.682 8.809,-22.68 21.368,-22.68 12.559,0 21.368,6 21.368,22.68 z"
+       id="path16" />
+    <path
+       class="cls-1"
+       d="M 74.809,265.16 H 58.22 l -16.776,67.665 h 12.465 l 3.655,-14.245 h 17.9 l 3.281,14.245 h 12.371 z m -14.9,41.986 6.371,-27.366 h 0.187 l 6.28,27.366 z"
+       id="path17" />
+  </g>
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>launch_secondary_cw_K_RGB</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     transform="translate(-1.7400211,-19.140233)" />
+</svg>
