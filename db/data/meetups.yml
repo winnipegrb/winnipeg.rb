@@ -75,6 +75,18 @@
 
 - name: Making a Game with DragonRuby
   description: |
+    **ORMs are Fine with Alexander Trauzzi**
+
+    Plenty of misinformation has taken hold over the years around ORMs. It varies by ecosystem, but is found everywhere and has sometimes even earned ORMs a negative reputation.
+
+    We'll spend a bit of time together understanding ORMs, what they are, the ways in which they can help, as well as the ways they are misunderstood. We'll also look briefly at the mix of validity and relevance when it comes to performance claims.
+
+    This talk is aimed at people doing the design and development of software, although others connected to the building and releasing can benefit too!
+
+    Questions and discussion welcome afterwards!
+
+    **Making a Game with DragonRuby with Gannon McGibbon**
+
     Let's kickoff 2025 with some game development!
 
     Most programmers know you can build games with Unity or Unreal, but did you know you can use Ruby too?
