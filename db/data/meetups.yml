@@ -99,3 +99,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/305304260/
   venue: Launch Coworking - Exchange
   time: 2025-01-29T18:00:00-05:00
+
+- name: Exploring Concurrency in Ruby
+  description: |
+    In this talk we explore the different ways you can write concurrent Ruby (with code demos), and discuss some lessons learned.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/), [Launch Coworking](https://launchcoworking.ca/), and [Ruby Central](https://rubycentral.org/).
+  event_url: https://www.meetup.com/winnipegrb/events/306587497/
+  venue: Launch Coworking - Exchange
+  time: 2025-03-26T18:00:00-05:00
