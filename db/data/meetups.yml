@@ -102,7 +102,13 @@
 
 - name: Exploring Concurrency in Ruby
   description: |
+    **Exploring Concurrency in Ruby with Chester Twomey**
+
     In this talk we explore the different ways you can write concurrent Ruby (with code demos), and discuss some lessons learned.
+
+    **HTML Over Websockets (using Common LISP) with Sajjad Heydari**
+
+    In this talk Sajjad will delve into the power of delivering HTML over Websockets, demonstrating an alternative way of creating single page dynamic website.
 
     Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
 
