@@ -116,3 +116,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/306587497/
   venue: Launch Coworking - Exchange
   time: 2025-03-26T18:00:00-05:00
+
+- name: Escaping Platform as a Service with Kamal
+  description: |
+    Do you use deployment platforms to ship your web apps? Are you sick of overpaying for compute? In this talk, you'll learn about how to use Kamal to break free of Platform as a Service (PaaS), and the forgotten art of deploying over SSH.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/) and [Launch Coworking](https://launchcoworking.ca/).
+  event_url: https://www.meetup.com/winnipegrb/events/307005212/
+  venue: Launch Coworking - Exchange
+  time: 2025-04-23T18:00:00-05:00
