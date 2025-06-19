@@ -127,3 +127,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/307005212/
   venue: Launch Coworking - Exchange
   time: 2025-04-23T18:00:00-05:00
+
+- name: Development Speed Optimizations in Rails 8
+  description: |
+    The release of Rails 8 included several speed optimizations for development, especially for larger applications. Let's talk about what they are, and why they matter. In this talk, you'll learn about why the Rails boot process is so important, and optimizations made to initializers, file watching, and route drawing.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/) and [Launch Coworking](https://launchcoworking.ca/).
+  event_url: https://www.meetup.com/winnipegrb/events/308546274/
+  venue: Launch Coworking - Exchange
+  time: 2025-06-25T18:00:00-05:00
