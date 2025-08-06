@@ -138,3 +138,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/308546274/
   venue: Launch Coworking - Exchange
   time: 2025-06-25T18:00:00-05:00
+
+- name: Teaching an LLM New Tricks
+  description: |
+    Large Language Models (LLMs) are everywhere these days. Did you know that you can use them to interact with web applications too? In this talk, you'll learn about how to use the Model Context Protocol (MCP) and Ruby to teach AI agents new skills.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/), [Launch Coworking](https://launchcoworking.ca/), and [Ruby Central](https://rubycentral.org/).
+  event_url: https://www.meetup.com/winnipegrb/events/310385645/
+  venue: Launch Coworking - Exchange
+  time: 2025-08-20T18:00:00-05:00
