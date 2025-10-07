@@ -149,3 +149,16 @@
   event_url: https://www.meetup.com/winnipegrb/events/310385645/
   venue: Launch Coworking - Exchange
   time: 2025-08-20T18:00:00-05:00
+
+- name: From Alert Fatigue to Intelligent Investigation
+  description: |
+    When faults emerge in a distributed system with hundreds of microservices, thousands of pods, and millions of users, how do you find the actual problem without manually correlating metrics, logs, and traces across dozens of dashboards? This talk presents an automated investigation system that mimics how one SRE team is leveraging a blend of AI and Rails to debug production incidents as they happen.
+
+    Muz Ali is an Infrastructure Engineer based in Winnipeg, currently working at Shopify.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/), [Launch Coworking](https://launchcoworking.ca/), and [Ruby Central](https://rubycentral.org/).
+  event_url: https://www.meetup.com/winnipegrb/events/311418908/
+  venue: Launch Coworking - Exchange
+  time: 2025-10-29T18:00:00-05:00
