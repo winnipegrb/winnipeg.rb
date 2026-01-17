@@ -10,7 +10,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         name: Setup Ruby
         with:
-          ruby-version: 3.3.0
+          ruby-version: 4.0.0
       - name: Lint
         run: |
           bundle install
