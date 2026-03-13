@@ -173,3 +173,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/312911110/
   venue: Launch Coworking - Exchange
   time: 2026-01-28T18:00:00-05:00
+
+- name: Using Native Extensions in Ruby
+  description: |
+    Have you ever written code in a lower level language like C? Have you ever used machine code in a higher level language like Ruby? In this talk, we'll discuss how to build native extensions with Ruby, along with the benefits and tradeoffs.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/), [Launch Coworking](https://launchcoworking.ca/), and [Ruby Central](https://rubycentral.org/).
+  event_url: https://www.meetup.com/winnipegrb/events/313724846/
+  venue: Launch Coworking - Exchange
+  time: 2026-03-25T18:00:00-05:00
