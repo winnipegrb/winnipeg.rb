@@ -184,3 +184,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/313724846/
   venue: Launch Coworking - Exchange
   time: 2026-03-25T18:00:00-05:00
+
+- name: Overengineering Ruby with Native Extensions
+  description: |
+    Native extensions are a powerful tool that allows Rubyists to reach outside the Ruby VM into machine code. In this talk, you'll learn just enough C to write your first native extension, and all the different ways you can over complicate your Ruby apps with interoperability.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/) and [Launch Coworking](https://launchcoworking.ca/).
+  event_url: https://www.meetup.com/winnipegrb/events/315225036/
+  venue: Launch Coworking - Exchange
+  time: 2026-06-24T18:00:00-05:00
