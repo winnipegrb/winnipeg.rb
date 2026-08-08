@@ -195,3 +195,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/315225036/
   venue: Launch Coworking - Exchange
   time: 2026-06-24T18:00:00-05:00
+
+- name: Agentic Development with Ruby
+  description: |
+    LLMs have seriously leveled up this year, and many of us use them daily to write code. But how do we use them efficiently? In this talk, you'll learn about agent harnesses, tools that make agents smarter, and how to leverage agents to write high quality Ruby code quickly.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/) and [Launch Coworking](https://launchcoworking.ca/).
+  event_url: https://www.meetup.com/winnipegrb/events/316029907/
+  venue: Launch Coworking - Exchange
+  time: 2026-09-16T18:00:00-05:00
