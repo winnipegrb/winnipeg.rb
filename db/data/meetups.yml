@@ -206,3 +206,14 @@
   event_url: https://www.meetup.com/winnipegrb/events/316029907/
   venue: Launch Coworking - Exchange
   time: 2026-09-16T18:00:00-05:00
+
+- name: Real Parallelism in Ruby with Ractors
+  description: |
+    Ractors, or Ruby Actors have been in development since before 2020, and support is just now starting to be rolled out to frameworks and libraries. Ractors allow true parallelism in a single Ruby process, which is a feature the language has been lacking since its release. In this talk, you'll learn about what Ractors are, how they're used, and some real world applications of them.
+
+    Doors open at 6, and the talk starts at 6:30. Food and drinks will be provided at the venue.
+
+    This meetup is sponsored by [Shopify](https://www.shopify.com/) and [Launch Coworking](https://launchcoworking.ca/).
+  event_url: https://www.meetup.com/winnipegrb/events/316629059/
+  venue: Launch Coworking - Exchange
+  time: 2026-10-28T18:00:00-05:00
